@@ -3,7 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/common.css" />
     <title>Homework 11</title>
   </head>
-  <body></body>
+  <body class="gallery-wrap"> 
+    <div >
+    <div class="form-wrap">
+      <form class="search-form" id="search-form">
+      <input
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button type="submit" class="btn-form">Search</button>
+    </form>
+  </div>
+ 
+    <ul class="gallery"></ul>
+     <div class="js-guard"></div>
+    </div>
+    
+    <script type="module" src="./index.js"></script>
+  </body>
 </html>
